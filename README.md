@@ -2,7 +2,8 @@
 This project demo how  to dockerized  the springboot application
 
 
----------Build Docker Image---------------\n
+---------Build Docker Image---------------
+
 docker build -f Dockerfile -t docker-springboot .
 
 --------Commit  image to docker Hub-----------
