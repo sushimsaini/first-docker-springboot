@@ -8,6 +8,7 @@ public class DockerSpringController {
 
 	@GetMapping("/home")
 	public String getHomePage() {
-		return "This is my first Docker Spring boot image.";
+		java.util.UUID  UUID = java.util.UUID.randomUUID();
+		return "This is my first Docker Spring boot image." + UUID.toString();
 	}
 }
